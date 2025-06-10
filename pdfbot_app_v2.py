@@ -159,6 +159,3 @@ if uploaded_files:
             st.success("Réponse générée :")
             st.write(result)
 
-            with st.expander("🔍 Documents sélectionnés (chunks)"):
-                for doc in docs:
-                    st.write(doc.page_content[:500])
